@@ -139,7 +139,7 @@ export function PostFeed() {
         </div>
         <div className="flex items-center gap-2">
           <span className="text-sm text-muted-foreground">{filteredPosts.length} posts</span>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <Button
               variant="outline"
               size="sm"
@@ -159,7 +159,7 @@ export function PostFeed() {
                 <option value={100}>Fast</option>
               </select>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
 
